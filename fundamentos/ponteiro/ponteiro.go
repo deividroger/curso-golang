@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	i := 1
 
-	var p *int = nil
+	var p *int
 
 	p = &i //pegando o endereço da variável
 
