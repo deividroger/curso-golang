@@ -17,7 +17,7 @@ func exec(db *sql.DB, sql string) sql.Result {
 }
 
 func main() {
-	db, err := sql.Open("mysql", "root:novembro@/")
+	db, err := sql.Open("mysql", "root:123456@/")
 
 	if err != nil {
 		panic(err)
